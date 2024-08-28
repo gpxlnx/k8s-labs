@@ -21,7 +21,7 @@ spec:
           rootApplication: 200
           namespace: 300
           application: 400
-      valueFiles: 
+      valueFiles:
         - values.yaml
     repoURL: {{ .source.url }}
     targetRevision: {{ .source.targetRevision }}
@@ -35,4 +35,4 @@ spec:
       backoff:
         duration: 15s
         factor: 1
-{{- end }}    
+{{- end }}

@@ -18,5 +18,5 @@ application:
       enabled: true
       ingressClassName: "nginx"
       hosts:
-        - argocd.ntakashi.com
+        - argocd.gpxlnx.com
       level: warn
