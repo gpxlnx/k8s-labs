@@ -13,7 +13,7 @@ spec:
       releaseName: cluster-root-app
       valueFiles:
         - values.yaml
-    repoURL: "https://github.com/nicolastakashi/k8s-labs.git"
+    repoURL: "https://github.com/gpxlnx/k8s-labs.git"
     path: ./apps/cluster
     targetRevision: main
   syncPolicy:
