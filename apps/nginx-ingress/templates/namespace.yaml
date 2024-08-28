@@ -14,10 +14,10 @@ spec:
     helm:
       releaseName: {{ .Values.namespace.name }}-namespace
       {{- with .Values.namespace }}
-      values: | 
+      values: |
         {{- toYaml . | nindent 8 }}
       {{- end }}
-    repoURL: https://github.com/nicolastakashi/k8s-labs.git
+    repoURL: https://github.com/gpxlnx/k8s-labs.git
     targetRevision: main
     path: ./apps/namespace
   syncPolicy:
