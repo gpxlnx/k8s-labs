@@ -58,7 +58,7 @@ resource "kubernetes_secret" "create_git_private_repo_secret" {
   }
 
   data = {
-    "url"      = "https://github.com/nicolastakashi/k8s-labs.git"
+    "url"      = "https://github.com/gpxlnx/k8s-labs.git"
     "username" = "not-used"
     "password" = data.external.env.result["gh_token"]
   }
