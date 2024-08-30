@@ -4,7 +4,7 @@ namespace:
 application:
   source:
     url: https://github.com/argoproj/argo-helm.git
-    targetRevision: argo-cd-5.28.0
+    targetRevision: argo-cd-7.5.0
     path: ./charts/argo-cd
   global:
     revisionHistoryLimit: 0
@@ -12,7 +12,7 @@ application:
       format: json
       level: warn
   server:
-    extraArgs: 
+    extraArgs:
       - --insecure
     ingress:
       enabled: true
